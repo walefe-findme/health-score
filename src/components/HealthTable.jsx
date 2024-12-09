@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 import jsonData from '../../data.json';
 
 function JsonTable() {
-  const [selectedHealthLikert, setSelectedHealthLikert] = useState('All');
-  const [selectedHealthScore, setSelectedHealthScore] = useState('All');
+  const [selectedHealthLikert, setSelectedHealthLikert] = useState('Todos');
+  const [selectedHealthScore, setSelectedHealthScore] = useState('Todos');
   const [searchCompany, setSearchCompany] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
   const data = jsonData;
 
   if (data.length === 0) {
-    return <div className="text-center mt-10">No data available</div>;
+    return <div className="text-center mt-10">Nenhum dado disponível</div>;
   }
   const { Sheet1 } = data;
 
-  // Get unique Health_Score_Likert values for filter
-  const uniqueHealthLikerts = ['All', ...new Set(Sheet1.map(item => item.Health_Score_Likert))];
+  // Obter valores únicos de Health_Score_Likert para filtro
+  const uniqueHealthLikerts = ['Todos', ...new Set(Sheet1.map(item => item.Health_Score_Likert))];
 
-  // Get unique Health_Score ranges for filter
+  // Obter intervalos únicos de Health_Score para filtro
   const healthScoreRanges = [
-    'All',
+    'Todos',
     '0-20',
     '21-40', 
     '41-60',
@@ -28,12 +28,12 @@ function JsonTable() {
     '81-100'
   ];
 
-  // Filter data based on both selections and search
+  // Filtrar dados com base em ambas as seleções e pesquisa
   const filteredData = Sheet1.filter(item => {
-    const likertMatch = selectedHealthLikert === 'All' || item.Health_Score_Likert === selectedHealthLikert;
+    const likertMatch = selectedHealthLikert === 'Todos' || item.Health_Score_Likert === selectedHealthLikert;
     
     let scoreMatch = true;
-    if (selectedHealthScore !== 'All') {
+    if (selectedHealthScore !== 'Todos') {
       const [min, max] = selectedHealthScore.split('-').map(Number);
       scoreMatch = item.Health_Score >= min && item.Health_Score <= max;
     }
@@ -41,9 +41,9 @@ function JsonTable() {
     const searchMatch = item.company_name.toLowerCase().includes(searchCompany.toLowerCase());
 
     return likertMatch && scoreMatch && searchMatch;
-  }).sort((a, b) => a.company_name.localeCompare(b.company_name)); // Sort alphabetically by company name
+  }).sort((a, b) => a.company_name.localeCompare(b.company_name)); // Ordenar alfabeticamente por nome da empresa
 
-  // Calculate pagination
+  // Calcular paginação
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -64,18 +64,18 @@ function JsonTable() {
           </h1>
           <div className="flex items-center gap-4 flex-wrap">
             <div className="flex items-center gap-2">
-              <label className="text-sm font-medium text-[#718096]">Search Company:</label>
+              <label className="text-sm font-medium text-[#718096]">Pesquisar Empresa:</label>
               <input
                 type="text"
                 value={searchCompany}
                 onChange={(e) => setSearchCompany(e.target.value)}
-                placeholder="Enter company name..."
+                placeholder="Digite o nome da empresa..."
                 className="rounded border border-[#e2e8f0] px-3 py-1.5 text-[#4a5568]"
               />
             </div>
 
             <div className="flex items-center gap-2">
-              <label className="text-sm font-medium text-[#718096]">Filter by Health Score Likert:</label>
+              <label className="text-sm font-medium text-[#718096]">Filtrar por Classificação:</label>
               <select 
                 value={selectedHealthLikert}
                 onChange={(e) => setSelectedHealthLikert(e.target.value)}
@@ -88,7 +88,7 @@ function JsonTable() {
             </div>
 
             <div className="flex items-center gap-2">
-              <label className="text-sm font-medium text-[#718096]">Filter by Health Score Range:</label>
+              <label className="text-sm font-medium text-[#718096]">Filtrar por Intervalo:</label>
               <select
                 value={selectedHealthScore}
                 onChange={(e) => setSelectedHealthScore(e.target.value)}
@@ -137,7 +137,7 @@ function JsonTable() {
                 ) : (
                   <tr>
                     <td colSpan={headers.length} className="text-center p-4 text-[#718096]">
-                      No results found
+                      Nenhum resultado encontrado
                     </td>
                   </tr>
                 )}
@@ -148,7 +148,7 @@ function JsonTable() {
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-[#718096] py-4">
           <div>
-            Showing {startIndex + 1} to {Math.min(endIndex, filteredData.length)} of {filteredData.length} entries
+            Mostrando {startIndex + 1} até {Math.min(endIndex, filteredData.length)} de {filteredData.length} registros
           </div>
           <div className="flex gap-2">
             <button
@@ -156,7 +156,7 @@ function JsonTable() {
               disabled={currentPage === 1}
               className="px-3 py-1 rounded border border-[#e2e8f0] disabled:opacity-50"
             >
-              Previous
+              Anterior
             </button>
             {[...Array(totalPages)].map((_, index) => (
               <button
@@ -176,7 +176,7 @@ function JsonTable() {
               disabled={currentPage === totalPages}
               className="px-3 py-1 rounded border border-[#e2e8f0] disabled:opacity-50"
             >
-              Next
+              Próximo
             </button>
           </div>
         </div>
