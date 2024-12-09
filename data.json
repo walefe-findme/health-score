@@ -115,7 +115,7 @@
       "Health_Score_Likert": "Bom"
      },
      {
-      "company_id": 308,
+      "company_id": 312,
       "company_name": "Grupo NAF",
       "Health_Score": 62.54,
       "Health_Score_Likert": "Bom"
@@ -127,7 +127,7 @@
       "Health_Score_Likert": "Bom"
      },
      {
-      "company_id": 70,
+      "company_id": 77,
       "company_name": "C&S Segurança",
       "Health_Score": 66.68,
       "Health_Score_Likert": "Bom"
@@ -211,7 +211,7 @@
       "Health_Score_Likert": "Bom"
      },
      {
-      "company_id": 70,
+      "company_id": 74,
       "company_name": "C&S SEGURANÇA",
       "Health_Score": 75.38,
       "Health_Score_Likert": "Bom"
@@ -241,7 +241,7 @@
       "Health_Score_Likert": "Bom"
      },
      {
-      "company_id": 287,
+      "company_id": 283,
       "company_name": "CGtech",
       "Health_Score": 78.55,
       "Health_Score_Likert": "Bom"
@@ -271,7 +271,7 @@
       "Health_Score_Likert": "Excelente"
      },
      {
-      "company_id": 23,
+      "company_id": 29,
       "company_name": "GRUPO MINER",
       "Health_Score": 81.54,
       "Health_Score_Likert": "Excelente"
@@ -439,7 +439,7 @@
       "Health_Score_Likert": "Excelente"
      },
      {
-      "company_id": 23,
+      "company_id": 22,
       "company_name": "Grupo Miner",
       "Health_Score": 88.58,
       "Health_Score_Likert": "Excelente"
@@ -919,7 +919,7 @@
       "Health_Score_Likert": "Excelente"
      },
      {
-      "company_id": 310,
+      "company_id": 311,
       "company_name": "Grupo Engefort",
       "Health_Score": 99.05,
       "Health_Score_Likert": "Excelente"
