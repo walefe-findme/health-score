@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useMemo } from 'react';
+import React from 'react';
 import jsonData from '../../data.json'; // Adjust the path as necessary
 
 function JsonTable() {
@@ -38,7 +38,7 @@ function JsonTable() {
                 </tr>
               </thead>
               <tbody className="[&_tr:last-child]:border-0">
-                {Sheet1.map((row, index) => (
+                {Sheet1.map((row) => (
                   <tr 
                     key={row.id || row._id || Object.values(row)[0]}
                     className="border-b border-[#e2e8f0] transition-colors hover:bg-[#f8fafc] data-[state=selected]:bg-[#f8fafc]"
