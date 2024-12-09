@@ -11,7 +11,7 @@ function JsonTable() {
   const data = jsonData;
 
   if (data.length === 0) {
-    return <div className="text-center mt-10">Nenhum dado disponível</div>;
+    return <div className="text-center mt-10 text-gray-200">Nenhum dado disponível</div>;
   }
   const { Sheet1 } = data;
 
@@ -56,30 +56,30 @@ function JsonTable() {
   };
 
   return (
-    <div className="h-full w-full p-6 md:p-12 bg-[#f7f9fc]">
+    <div className="h-full w-full p-6 md:p-12 bg-gray-900">
       <div className="max-w-[1400px] mx-auto space-y-6">
         <div className="flex flex-col gap-4">
-          <h1 className="text-3xl font-bold tracking-tight text-[#2d3748]">
+          <h1 className="text-3xl font-bold tracking-tight text-gray-100">
             Health Score
           </h1>
           <div className="flex items-center gap-4 flex-wrap">
             <div className="flex items-center gap-2">
-              <label className="text-sm font-medium text-[#718096]">Pesquisar Empresa:</label>
+              <label className="text-sm font-medium text-gray-300">Pesquisar Empresa:</label>
               <input
                 type="text"
                 value={searchCompany}
                 onChange={(e) => setSearchCompany(e.target.value)}
                 placeholder="Digite o nome da empresa..."
-                className="rounded border border-[#e2e8f0] px-3 py-1.5 text-[#4a5568]"
+                className="rounded border border-gray-700 bg-gray-800 px-3 py-1.5 text-gray-200 placeholder-gray-500"
               />
             </div>
 
             <div className="flex items-center gap-2">
-              <label className="text-sm font-medium text-[#718096]">Filtrar por Classificação:</label>
+              <label className="text-sm font-medium text-gray-300">Filtrar por Classificação:</label>
               <select 
                 value={selectedHealthLikert}
                 onChange={(e) => setSelectedHealthLikert(e.target.value)}
-                className="rounded border border-[#e2e8f0] px-3 py-1.5 text-[#4a5568]"
+                className="rounded border border-gray-700 bg-gray-800 px-3 py-1.5 text-gray-200"
               >
                 {uniqueHealthLikerts.map(score => (
                   <option key={score} value={score}>{score}</option>
@@ -88,11 +88,11 @@ function JsonTable() {
             </div>
 
             <div className="flex items-center gap-2">
-              <label className="text-sm font-medium text-[#718096]">Filtrar por Intervalo:</label>
+              <label className="text-sm font-medium text-gray-300">Filtrar por Intervalo:</label>
               <select
                 value={selectedHealthScore}
                 onChange={(e) => setSelectedHealthScore(e.target.value)}
-                className="rounded border border-[#e2e8f0] px-3 py-1.5 text-[#4a5568]"
+                className="rounded border border-gray-700 bg-gray-800 px-3 py-1.5 text-gray-200"
               >
                 {healthScoreRanges.map(range => (
                   <option key={range} value={range}>{range}</option>
@@ -102,15 +102,15 @@ function JsonTable() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-[#e2e8f0] bg-white shadow-sm">
+        <div className="rounded-lg border border-gray-700 bg-gray-800 shadow-sm">
           <div className="relative w-full overflow-auto">
             <table className="w-full caption-bottom text-sm">
               <thead className="[&_tr]:border-b">
-                <tr className="border-b border-[#e2e8f0] bg-[#f8fafc] transition-colors">
+                <tr className="border-b border-gray-700 bg-gray-900 transition-colors">
                   {headers.map((header) => (
                     <th 
                       key={header}
-                      className="h-12 px-4 text-left align-middle font-medium text-[#718096] [&:has([role=checkbox])]:pr-0"
+                      className="h-12 px-4 text-left align-middle font-medium text-gray-300 [&:has([role=checkbox])]:pr-0"
                     >
                       {header}
                     </th>
@@ -122,12 +122,12 @@ function JsonTable() {
                   currentData.map((row) => (
                     <tr 
                       key={row.id || row._id || Object.values(row)[0]}
-                      className="border-b border-[#e2e8f0] transition-colors hover:bg-[#f7fafc] data-[state=selected]:bg-[#f7fafc]"
+                      className="border-b border-gray-700 transition-colors hover:bg-gray-700 data-[state=selected]:bg-gray-700"
                     >
                       {headers.map((header) => (
                         <td 
                           key={header}
-                          className="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-[#4a5568]"
+                          className="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-gray-200"
                         >
                           {row[header]}
                         </td>
@@ -136,7 +136,7 @@ function JsonTable() {
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={headers.length} className="text-center p-4 text-[#718096]">
+                    <td colSpan={headers.length} className="text-center p-4 text-gray-400">
                       Nenhum resultado encontrado
                     </td>
                   </tr>
@@ -146,7 +146,7 @@ function JsonTable() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-[#718096] py-4">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-300 py-4">
           <div>
             Mostrando {startIndex + 1} até {Math.min(endIndex, filteredData.length)} de {filteredData.length} registros
           </div>
@@ -154,7 +154,7 @@ function JsonTable() {
             <button
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
-              className="px-3 py-1 rounded border border-[#e2e8f0] disabled:opacity-50"
+              className="px-3 py-1 rounded border border-gray-700 bg-gray-800 disabled:opacity-50 text-gray-200"
             >
               Anterior
             </button>
@@ -164,8 +164,8 @@ function JsonTable() {
                 onClick={() => handlePageChange(index + 1)}
                 className={`px-3 py-1 rounded border ${
                   currentPage === index + 1
-                    ? 'bg-[#4a5568] text-white'
-                    : 'border-[#e2e8f0]'
+                    ? 'bg-gray-600 text-white border-gray-600'
+                    : 'border-gray-700 bg-gray-800 text-gray-200'
                 }`}
               >
                 {index + 1}
@@ -174,7 +174,7 @@ function JsonTable() {
             <button
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className="px-3 py-1 rounded border border-[#e2e8f0] disabled:opacity-50"
+              className="px-3 py-1 rounded border border-gray-700 bg-gray-800 disabled:opacity-50 text-gray-200"
             >
               Próximo
             </button>
