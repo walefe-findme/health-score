@@ -55,6 +55,44 @@ function JsonTable() {
     setCurrentPage(page);
   };
 
+  // Função para gerar array de páginas com dots
+  const getPageNumbers = () => {
+    const delta = 2;
+    const range = [];
+    const rangeWithDots = [];
+
+    // Sempre mostrar primeira página
+    range.push(1);
+
+    // Calcular range ao redor da página atual
+    for (let i = currentPage - delta; i <= currentPage + delta; i++) {
+      if (i > 1 && i < totalPages) {
+        range.push(i);
+      }
+    }
+
+    // Sempre mostrar última página
+    if (totalPages > 1) {
+      range.push(totalPages);
+    }
+
+    // Adicionar dots onde necessário
+    let l;
+    for (let i of range) {
+      if (l) {
+        if (i - l === 2) {
+          rangeWithDots.push(l + 1);
+        } else if (i - l !== 1) {
+          rangeWithDots.push('...');
+        }
+      }
+      rangeWithDots.push(i);
+      l = i;
+    }
+
+    return rangeWithDots;
+  };
+
   return (
     <div className="h-full w-full p-6 md:p-12 bg-gray-900">
       <div className="max-w-[1400px] mx-auto space-y-6">
@@ -158,18 +196,22 @@ function JsonTable() {
             >
               Anterior
             </button>
-            {[...Array(totalPages)].map((_, index) => (
-              <button
-                key={index + 1}
-                onClick={() => handlePageChange(index + 1)}
-                className={`px-3 py-1 rounded border ${
-                  currentPage === index + 1
-                    ? 'bg-gray-600 text-white border-gray-600'
-                    : 'border-gray-700 bg-gray-800 text-gray-200'
-                }`}
-              >
-                {index + 1}
-              </button>
+            {getPageNumbers().map((pageNumber, index) => (
+              pageNumber === '...' ? (
+                <span key={`dots-${index}`} className="px-3 py-1 text-gray-400">...</span>
+              ) : (
+                <button
+                  key={pageNumber}
+                  onClick={() => handlePageChange(pageNumber)}
+                  className={`px-3 py-1 rounded border ${
+                    currentPage === pageNumber
+                      ? 'bg-gray-600 text-white border-gray-600'
+                      : 'border-gray-700 bg-gray-800 text-gray-200'
+                  }`}
+                >
+                  {pageNumber}
+                </button>
+              )
             ))}
             <button
               onClick={() => handlePageChange(currentPage + 1)}
