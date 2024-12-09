@@ -1,0 +1,1006 @@
+{
+    "Sheet1":[
+     {
+      "company_id": 379,
+      "company_name": "Grupo Berbel",
+      "Health_Score": 3.82,
+      "Health_Score_Likert": "Muito Ruim"
+     },
+     {
+      "company_id": 738,
+      "company_name": "JRQ Aliança",
+      "Health_Score": 18,
+      "Health_Score_Likert": "Muito Ruim"
+     },
+     {
+      "company_id": 645,
+      "company_name": "FR Facility",
+      "Health_Score": 18.46,
+      "Health_Score_Likert": "Muito Ruim"
+     },
+     {
+      "company_id": 583,
+      "company_name": "Lógica Segurança e Vigilância",
+      "Health_Score": 18.61,
+      "Health_Score_Likert": "Muito Ruim"
+     },
+     {
+      "company_id": 445,
+      "company_name": "Implantare Serviços",
+      "Health_Score": 23.38,
+      "Health_Score_Likert": "Ruim"
+     },
+     {
+      "company_id": 566,
+      "company_name": "Factotum Segurança",
+      "Health_Score": 29.41,
+      "Health_Score_Likert": "Ruim"
+     },
+     {
+      "company_id": 654,
+      "company_name": "Grupo GP",
+      "Health_Score": 33.97,
+      "Health_Score_Likert": "Ruim"
+     },
+     {
+      "company_id": 26,
+      "company_name": "Poliservice",
+      "Health_Score": 36.92,
+      "Health_Score_Likert": "Ruim"
+     },
+     {
+      "company_id": 229,
+      "company_name": "JVS serviços",
+      "Health_Score": 37.14,
+      "Health_Score_Likert": "Ruim"
+     },
+     {
+      "company_id": 345,
+      "company_name": "Instruseg",
+      "Health_Score": 41.69,
+      "Health_Score_Likert": "Moderado"
+     },
+     {
+      "company_id": 584,
+      "company_name": "Oliveira Security",
+      "Health_Score": 42.05,
+      "Health_Score_Likert": "Moderado"
+     },
+     {
+      "company_id": 691,
+      "company_name": "Evolutions Serviços",
+      "Health_Score": 46.43,
+      "Health_Score_Likert": "Moderado"
+     },
+     {
+      "company_id": 676,
+      "company_name": "Brandão",
+      "Health_Score": 49.87,
+      "Health_Score_Likert": "Moderado"
+     },
+     {
+      "company_id": 716,
+      "company_name": "Grupo Taroba",
+      "Health_Score": 54.86,
+      "Health_Score_Likert": "Moderado"
+     },
+     {
+      "company_id": 572,
+      "company_name": "Fortaleza Tecnologia",
+      "Health_Score": 54.86,
+      "Health_Score_Likert": "Moderado"
+     },
+     {
+      "company_id": 650,
+      "company_name": "Andrade Distribuidor",
+      "Health_Score": 56.49,
+      "Health_Score_Likert": "Moderado"
+     },
+     {
+      "company_id": 240,
+      "company_name": "Grupo Protevig",
+      "Health_Score": 61.27,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 733,
+      "company_name": "Go Service",
+      "Health_Score": 61.33,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 308,
+      "company_name": "Grupo Naf",
+      "Health_Score": 61.97,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 308,
+      "company_name": "Grupo NAF",
+      "Health_Score": 62.54,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 736,
+      "company_name": "Grupo Domo",
+      "Health_Score": 65.51,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 70,
+      "company_name": "C&S Segurança",
+      "Health_Score": 66.68,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 575,
+      "company_name": "Grupo Previx.",
+      "Health_Score": 67.01,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 382,
+      "company_name": "Company Seg",
+      "Health_Score": 70.77,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 560,
+      "company_name": "Green House",
+      "Health_Score": 71.31,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 709,
+      "company_name": "VM Soluções em Serviços",
+      "Health_Score": 72.29,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 281,
+      "company_name": "INTERFORT SEGURANCA DE VALORES LTDA",
+      "Health_Score": 72.48,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 576,
+      "company_name": "Torquato Freire",
+      "Health_Score": 73.33,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 465,
+      "company_name": "Morro do Chapéu",
+      "Health_Score": 73.47,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 686,
+      "company_name": "Archote Patrimonial",
+      "Health_Score": 74.1,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 433,
+      "company_name": "RG Segurança",
+      "Health_Score": 74.14,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 494,
+      "company_name": "SM Segurança",
+      "Health_Score": 74.17,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 410,
+      "company_name": "Villa do Comendador",
+      "Health_Score": 74.31,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 471,
+      "company_name": "Clinica Maia",
+      "Health_Score": 74.81,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 363,
+      "company_name": "Grupo Maromax",
+      "Health_Score": 75.14,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 70,
+      "company_name": "C&S SEGURANÇA",
+      "Health_Score": 75.38,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 347,
+      "company_name": "Engenharia Fernandes",
+      "Health_Score": 76.3,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 313,
+      "company_name": "Grupo MADS",
+      "Health_Score": 76.51,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 647,
+      "company_name": "Caemmun",
+      "Health_Score": 77.49,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 421,
+      "company_name": "MXM Service",
+      "Health_Score": 77.55,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 287,
+      "company_name": "CGtech",
+      "Health_Score": 78.55,
+      "Health_Score_Likert": "Bom"
+     },
+     {
+      "company_id": 284,
+      "company_name": "JMT Service",
+      "Health_Score": 80.02,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 593,
+      "company_name": "GRUPO PRIMORDIUM SEGURANÇA E SERVIÇOS",
+      "Health_Score": 80.64,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 20,
+      "company_name": "WCA Segurança",
+      "Health_Score": 81.08,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 549,
+      "company_name": "ARCO Consultoria em Segurança",
+      "Health_Score": 81.28,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 23,
+      "company_name": "GRUPO MINER",
+      "Health_Score": 81.54,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 737,
+      "company_name": "Síndico Eduardo Correa",
+      "Health_Score": 82,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 732,
+      "company_name": "Enforce Maringa",
+      "Health_Score": 82.59,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 582,
+      "company_name": "Balmax",
+      "Health_Score": 82.83,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 340,
+      "company_name": "Jennings",
+      "Health_Score": 82.84,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 554,
+      "company_name": "ASPROMORES",
+      "Health_Score": 83.19,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 443,
+      "company_name": "Basson",
+      "Health_Score": 83.61,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 665,
+      "company_name": "Biosindico",
+      "Health_Score": 84.12,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 322,
+      "company_name": "SISEG",
+      "Health_Score": 84.23,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 663,
+      "company_name": "Grupo Veper",
+      "Health_Score": 84.41,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 125,
+      "company_name": "ACB Segurança",
+      "Health_Score": 84.52,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 380,
+      "company_name": "JC",
+      "Health_Score": 84.76,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 552,
+      "company_name": "Segsul",
+      "Health_Score": 84.8,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 41,
+      "company_name": "Atento Segurança",
+      "Health_Score": 85.01,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 275,
+      "company_name": "Grupo 5 Estrelas",
+      "Health_Score": 85.12,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 159,
+      "company_name": "GAP Segurança",
+      "Health_Score": 85.58,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 604,
+      "company_name": "Solução Serviços",
+      "Health_Score": 86.24,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 633,
+      "company_name": "Lifeseg",
+      "Health_Score": 86.49,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 537,
+      "company_name": "Tag Serviços",
+      "Health_Score": 86.58,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 731,
+      "company_name": "Grupo Invict",
+      "Health_Score": 86.64,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 627,
+      "company_name": "VIGITEC - Segurança Ltda.",
+      "Health_Score": 86.76,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 86,
+      "company_name": "Grupo Alamaster",
+      "Health_Score": 86.84,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 697,
+      "company_name": "Garra Vigilância e Segurança",
+      "Health_Score": 86.87,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 563,
+      "company_name": "Soberana Segurança",
+      "Health_Score": 87.26,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 605,
+      "company_name": "RED SAFETY",
+      "Health_Score": 87.69,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 516,
+      "company_name": "Grupo Bruto",
+      "Health_Score": 87.85,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 688,
+      "company_name": "TEDDEWORK",
+      "Health_Score": 88.02,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 524,
+      "company_name": "Protection",
+      "Health_Score": 88.47,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 23,
+      "company_name": "Grupo Miner",
+      "Health_Score": 88.58,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 535,
+      "company_name": "Grupo Esparta",
+      "Health_Score": 88.71,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 395,
+      "company_name": "Porto do Açu",
+      "Health_Score": 89.28,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 230,
+      "company_name": "Conservar Serviços",
+      "Health_Score": 89.49,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 513,
+      "company_name": "Neoguard",
+      "Health_Score": 89.53,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 376,
+      "company_name": "AVB",
+      "Health_Score": 90.44,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 689,
+      "company_name": "Servlar",
+      "Health_Score": 90.44,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 668,
+      "company_name": "ADM do Brasil",
+      "Health_Score": 90.44,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 561,
+      "company_name": "Protemaxi",
+      "Health_Score": 90.68,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 726,
+      "company_name": "Cleone Segurança",
+      "Health_Score": 90.73,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 519,
+      "company_name": "Segura Service",
+      "Health_Score": 90.94,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 725,
+      "company_name": "Ello Soluções",
+      "Health_Score": 90.98,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 631,
+      "company_name": "Grupo Lothar",
+      "Health_Score": 91.93,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 641,
+      "company_name": "Embavig",
+      "Health_Score": 92.1,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 557,
+      "company_name": "Grupo Phoenix",
+      "Health_Score": 92.32,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 615,
+      "company_name": "Associação São Vicente de Paulo",
+      "Health_Score": 92.44,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 377,
+      "company_name": "Grupo Dimensão",
+      "Health_Score": 92.5,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 687,
+      "company_name": "Fullseg",
+      "Health_Score": 92.6,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 71,
+      "company_name": "Security Segurança e Serviços",
+      "Health_Score": 92.66,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 287,
+      "company_name": "CGTech",
+      "Health_Score": 92.77,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 497,
+      "company_name": "Uniservice Barretos",
+      "Health_Score": 92.79,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 511,
+      "company_name": "Atlântica Segurança Técnica",
+      "Health_Score": 92.84,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 188,
+      "company_name": "EVP",
+      "Health_Score": 93,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 234,
+      "company_name": "Atentare",
+      "Health_Score": 93.19,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 316,
+      "company_name": "Q1 Facilites",
+      "Health_Score": 93.93,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 533,
+      "company_name": "Força e Apoio",
+      "Health_Score": 94.45,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 659,
+      "company_name": "Cesbe",
+      "Health_Score": 94.49,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 478,
+      "company_name": "Solution Max Segurança",
+      "Health_Score": 94.57,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 54,
+      "company_name": "Nobre Facilities",
+      "Health_Score": 94.81,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 656,
+      "company_name": "Efiteg",
+      "Health_Score": 94.82,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 674,
+      "company_name": "A.H serviços",
+      "Health_Score": 94.84,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 402,
+      "company_name": "Esparta Segurança",
+      "Health_Score": 94.88,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 69,
+      "company_name": "Observe Segurança",
+      "Health_Score": 94.9,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 522,
+      "company_name": "CONNEXION EMPREENDIMENTOS E SERVIÇOS",
+      "Health_Score": 94.98,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 591,
+      "company_name": "LR Agrodone",
+      "Health_Score": 95.06,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 131,
+      "company_name": "Life Defense Segurança",
+      "Health_Score": 95.19,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 321,
+      "company_name": "Orcali",
+      "Health_Score": 95.32,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 414,
+      "company_name": "Hábil Segurança",
+      "Health_Score": 95.33,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 354,
+      "company_name": "ATGB Sistemas",
+      "Health_Score": 95.35,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 658,
+      "company_name": "RD Serviços",
+      "Health_Score": 95.37,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 565,
+      "company_name": "Canal Service",
+      "Health_Score": 95.41,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 610,
+      "company_name": "Promover Vigilância",
+      "Health_Score": 95.47,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 442,
+      "company_name": "Grupo Perfect",
+      "Health_Score": 95.5,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 276,
+      "company_name": "Multserv Segurança",
+      "Health_Score": 95.57,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 80,
+      "company_name": "Força Tarefa vigilância e Segurança Ltda.",
+      "Health_Score": 95.59,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 694,
+      "company_name": "CONDOMINIO EDIFICIO CIDADE DE MONTREAL",
+      "Health_Score": 95.62,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 646,
+      "company_name": "Sempre Vidas",
+      "Health_Score": 95.72,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 216,
+      "company_name": "Grupo Lancer",
+      "Health_Score": 95.78,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 491,
+      "company_name": "Prottseg",
+      "Health_Score": 96.06,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 150,
+      "company_name": "Sulclean Segurança Ltda",
+      "Health_Score": 96.19,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 548,
+      "company_name": "Security Jaragua e portaria",
+      "Health_Score": 96.2,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 660,
+      "company_name": "HTrack Rastreamento",
+      "Health_Score": 96.39,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 196,
+      "company_name": "Servcamp",
+      "Health_Score": 96.41,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 515,
+      "company_name": "Condomínio Smart Vista do Sol",
+      "Health_Score": 96.69,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 310,
+      "company_name": "GRUPO ENGEFORT",
+      "Health_Score": 96.71,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 447,
+      "company_name": "Carlos Faria - Consultoria em Segurança Empresarial",
+      "Health_Score": 96.81,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 662,
+      "company_name": "Seahub",
+      "Health_Score": 96.85,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 355,
+      "company_name": "Grupo Ethics",
+      "Health_Score": 96.95,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 567,
+      "company_name": "SP Segurança - Steffen & Pereira",
+      "Health_Score": 96.98,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 168,
+      "company_name": "Megavig",
+      "Health_Score": 97.27,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 248,
+      "company_name": "Grupo JSA",
+      "Health_Score": 97.28,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 146,
+      "company_name": "Albatroz Segurança",
+      "Health_Score": 97.3,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 495,
+      "company_name": "Bravo Segurança",
+      "Health_Score": 97.32,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 274,
+      "company_name": "Ceará Segurança",
+      "Health_Score": 97.38,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 255,
+      "company_name": "Anjos da Guarda",
+      "Health_Score": 97.63,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 193,
+      "company_name": "Empresas Minister",
+      "Health_Score": 97.75,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 53,
+      "company_name": "Yamam",
+      "Health_Score": 97.75,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 123,
+      "company_name": "GOCIL SERVICOS DE VIGILANCIA E SEGURANCA LTDA",
+      "Health_Score": 97.95,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 207,
+      "company_name": "Grupo GR",
+      "Health_Score": 97.96,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 370,
+      "company_name": "Grupo Forteseg",
+      "Health_Score": 98.05,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 317,
+      "company_name": "GFS SEGURANÇA LTDA",
+      "Health_Score": 98.1,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 389,
+      "company_name": "TRÍADE VIGILÂNCIA",
+      "Health_Score": 98.25,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 116,
+      "company_name": "Meu Sentinela",
+      "Health_Score": 98.3,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 185,
+      "company_name": "Resolv Vigilância",
+      "Health_Score": 98.34,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 617,
+      "company_name": "Fobvs",
+      "Health_Score": 98.38,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 444,
+      "company_name": "Alegre e Dall Agnol",
+      "Health_Score": 98.39,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 373,
+      "company_name": "Grupo Elo Segurança",
+      "Health_Score": 98.41,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 44,
+      "company_name": "Impacto Grupo",
+      "Health_Score": 98.56,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 648,
+      "company_name": "Paulo Roberto Boldrini",
+      "Health_Score": 98.91,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 259,
+      "company_name": "Embrasil",
+      "Health_Score": 99.01,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 310,
+      "company_name": "Grupo Engefort",
+      "Health_Score": 99.05,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 547,
+      "company_name": "Bastille Segurança Patrimonial",
+      "Health_Score": 99.09,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 333,
+      "company_name": "Sulclean Serviços - limpeza",
+      "Health_Score": 99.1,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 269,
+      "company_name": "PADRAO SEGURANCA E VIGILANCIA LTDA",
+      "Health_Score": 99.17,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 37,
+      "company_name": "Aster Segurança",
+      "Health_Score": 99.3,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 326,
+      "company_name": "Solidez Segurança",
+      "Health_Score": 99.46,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 191,
+      "company_name": "Grupo Haganá",
+      "Health_Score": 99.58,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 47,
+      "company_name": "Marcondes",
+      "Health_Score": 99.59,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 217,
+      "company_name": "Stilo Segurança",
+      "Health_Score": 99.63,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 257,
+      "company_name": "Campseg",
+      "Health_Score": 99.76,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 109,
+      "company_name": "Delphos - Segurança",
+      "Health_Score": 99.78,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 63,
+      "company_name": "INVIOSEG SEGURANÇA",
+      "Health_Score": 99.81,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 502,
+      "company_name": "Grupo Seleto",
+      "Health_Score": 99.86,
+      "Health_Score_Likert": "Excelente"
+     },
+     {
+      "company_id": 177,
+      "company_name": "Grupo Coneleste",
+      "Health_Score": 99.9,
+      "Health_Score_Likert": "Excelente"
+     }
+    ]
+    }
