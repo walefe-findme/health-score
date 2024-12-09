@@ -1,8 +1,8 @@
-import ExcelTable from "../components/ExcelTable";
+import HealthTable from "../components/HealthTable";
 export default function Home() {
   return (
     <div>
-      <ExcelTable />
+      <HealthTable />
     </div>
   );
 }
